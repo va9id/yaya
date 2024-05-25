@@ -24,8 +24,10 @@ footer {
     background: rgb(255, 255, 240);
     background: linear-gradient(180deg, rgba(255, 255, 240, 1) 17%, rgba(255, 255, 229, 1) 28%, rgba(255, 239, 184, 1) 81%, rgba(255, 234, 89, 1) 96%);
     -webkit-text-fill-color: transparent;
+    background-clip: text;
     -webkit-background-clip: text;
     transition: opacity 2s, transform 2s;
+    user-select: none;
 }
 
 
